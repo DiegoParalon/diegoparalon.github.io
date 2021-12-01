@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background-image:url(../img/bg.png);
+    background-size: cover;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.avatar {
+    margin-top: 30px;
+    width: 200px;
+    border-radius: 100%;
+    border: 4px solid  rgb(245,192,190);
+    box-shadow: 0 0 200px rgb(248, 213, 212);
+    margin-bottom: 20px;
+    
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    
+    
+
+
+}
+.links a {
+    margin: 8px;
+    padding: 18px;
+    background: rgb(245,192,190);
+    background: linear-gradient(90deg, rgba(245,192,190,1) 0%, rgba(237,170,168,1) 54%, rgba(245,192,190,1) 100%);
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: -1px;
+    text-shadow: 0 0 20px  white;
+    border-radius: 14px;
+    border: 1px solid rgb(247, 207, 205);
+}
+
+.links a:hover {
+    background: white;
+   color: rgb(245,192,190) ; 
+   text-shadow: 0 0 20px rgb(245,192,190);
+}
+
+.profile {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+.social-icons img {
+width: 40px;
+margin: 10px;
+border: 1px solid rgb(245,192,190);
+border-radius: 50px;
+box-shadow: 0 0 20px rgb(245,192,190);
+}
+
+
+.footer {
+    
+    margin-top: 210px;
+    padding: 1px;
+    background-color: rgb(245,192,190);
+    opacity: 0.6;
+    font-size: 10px;
+    text-align: center;
+    
+}
